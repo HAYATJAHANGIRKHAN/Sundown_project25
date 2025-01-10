@@ -34,6 +34,33 @@ nav{
     border-radius: 50px;
     font-weight: 500;
     color: #000000bb;
+    position: relative;
     font-size: 18px;
+
+}
+#nav-part2 h4::after{
+content: "";
+position: absolute;
+height: 100%;
+width: 100%;
+background-color: black;
+left:0;
+bottom:-100%;
+border-radius: 50%;
+transition: all ease 0.3s;
+
+
+}
+#nav-part2 h4:hover::after{
+    bottom: 0;
+    border-radius: 0;
+    
+}
+#nav-part2 h4 a{
+    color: #000000bb;
+    text-decoration: none;
+    z-index: 9;
+    position: relative;
+
 
 }
