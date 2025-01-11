@@ -33,9 +33,11 @@ nav{
     border:1px solid #8a8a8a;
     border-radius: 50px;
     font-weight: 500;
+    transition: all ease 0.4s;
     color: #000000bb;
     position: relative;
     font-size: 18px;
+    overflow: hidden;
 
 }
 #nav-part2 h4::after{
@@ -47,7 +49,7 @@ background-color: black;
 left:0;
 bottom:-100%;
 border-radius: 50%;
-transition: all ease 0.3s;
+transition: all ease 0.4s;
 
 
 }
@@ -61,6 +63,8 @@ transition: all ease 0.3s;
     text-decoration: none;
     z-index: 9;
     position: relative;
+}
 
-
+#nav-part2 h4:hover a{
+    color: #fff;
 }
