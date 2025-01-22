@@ -114,3 +114,16 @@ line-height: 2vw;
     margin-top: 4vw;
     width: 100%;
 }
+#hero-shape{
+    position: absolute;
+    width: 46vw;
+    height: 36vh;
+    background-color: #fe320a;
+    /* border-radius: 50%; */
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    right: 0%;
+    top: 65vh;
+    filter: blur(20px);
+
+}
